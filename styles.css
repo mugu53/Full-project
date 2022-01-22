@@ -176,6 +176,30 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+/*Hero Section */
+.hero { 
+background: white;
+background: linear-gradient(to right, white, white);
+padding: 200px;
+}
+
+.hero__contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+.hero__heading {
+  font-size: 100px;
+  margin-bottom: 24px;
+  color: black;
+}
+
 /*About*/
 .two-column-wrapper {
   display: grid;
