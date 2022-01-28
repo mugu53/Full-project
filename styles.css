@@ -178,11 +178,11 @@
 }
 /*Hero Section */
 .main{
-  background-image: url('images/pexels-01.jpeg');
-  height:1000px;
-  width: 1183px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url(images/pexels-01.jpeg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .main__container {
@@ -204,6 +204,7 @@
   background-image:inear-gradient(to top, #d2f0d2fa 0%, #f3f3cc 100%);
   background-size: 100%5;
   -webkit-background-clip: text;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color:transparent
@@ -213,7 +214,8 @@
   font-size: 2rem;
   background-color: #eef3d6;
   background-image: linear-gradient(to top, #d1e8ee1f 0%, #faf6f5 100%);
-  background-size: 100%5;
+  background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -314,7 +316,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 70px 0 0 0;
 }
 .footer-col{
    width: 25%;
