@@ -484,7 +484,7 @@ color: transparent;
 /* needs to be more specific with selector */
 .img-text-wrapper:hover .subtitle {
 font-weight: 600;
-color: lightseagreen;
+color: rgb(255, 255, 255);
 }
 
 .img-darken {
