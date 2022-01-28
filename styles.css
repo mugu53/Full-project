@@ -178,7 +178,7 @@
 }
 /*Hero Section */
 .main{
-  background-image: url('/images/pexels-01.jpeg');
+  background-image: url('images/pexels-01.jpeg');
   height:1000px;
   width: 1183px;
   background-repeat: no-repeat;
