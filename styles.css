@@ -143,6 +143,7 @@
     width: 100%;
     display: table;
   }
+
   .navbar__btn {
     padding-bottom: 2rem;
   }
@@ -155,6 +156,7 @@
     height: 80px;
     margin: 0;
   }
+
   #mobile-menu {
     position: absolute;
     top: 20%;
@@ -176,7 +178,7 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-/*Hero Section */
+/*Hero Section Home page */
 .main{
   background-image: url(images/pexels-01.jpeg);
   height: 100%;
@@ -270,10 +272,8 @@ outline: none;
 }
 
 
+/* About */
 
-
-
-/*About*/
 .two-column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -288,10 +288,7 @@ outline: none;
   color: lightseagreen;
 }
 
-
-
-
-/** FOOTER **/
+/* FOOTER */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
@@ -388,10 +385,8 @@ ul{
 }
 
 
-/**plm **/
-
-
 /* Master Styles*/
+
 body {
   font-family: 'Playfair Display', serif;
 margin: 0px;
@@ -401,20 +396,25 @@ margin: 0px;
 display: grid;
 grid-template-columns: 1fr;
 }
+
 /*Nav styles*/
+
 .nav-wrapper {
 display: flex;
 justify-content: space-between;
 padding: 38px;
 }
+
 .left-side {
 display: flex;
 }
+
 .nav-wrapper > .left-side > div {
 margin-right: 20px;
 font-size: 0.9em;
 text-transform: uppercase;
 }
+
 .nav-link-wrapper {
 height: 22px;
 border: 1px solid transparent;
@@ -430,12 +430,15 @@ transition: color 0.5s;
 .nav-link-wrapper :hover {
 border-bottom: 1px solid black;
 }
+
 .nav-link-wrapper a:hover {
 color: black;
 }
+
 .active-nav-link {
 border-bottom: 1px solid black;
 }
+
 .active-nav-link a {
 color: black !important;
 }
@@ -476,14 +479,18 @@ padding-right: 100px;
 width: 50%;
 margin-bottom: 20px;
 }
+
 .img-text-wrapper .subtitle {
 transition: 1s;
 font-weight: 600;
 color: transparent;
 }
+
 /* needs to be more specific with selector */
+
 .img-text-wrapper:hover .subtitle {
 font-weight: 600;
+color: lightseagreen;
 color: rgb(255, 255, 255);
 }
 
@@ -491,19 +498,22 @@ color: rgb(255, 255, 255);
 transition: 1s;
 filter: brightness(10%);
 }
+
 /*About*/
+
 .two-column-wrapper {
 display: grid;
 grid-template-columns: 1fr 1fr;
 }
+
 .profile-image-wrapper {
 width: 100%;
 }
+
 .profile-content-wrapper {
 padding: 30px;
 }
+
 .profile-content-wrapper h1 {
 color: lightseagreen;
 }
-
-
